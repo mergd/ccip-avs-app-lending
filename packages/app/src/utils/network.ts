@@ -1,12 +1,9 @@
-import { mainnet, sepolia, polygon, optimism, arbitrum } from '@wagmi/core/chains'
+import { goerli } from '@wagmi/core/chains'
 
-export const ETH_CHAINS = [mainnet, sepolia, polygon, optimism, arbitrum]
+export const ETH_CHAINS = [goerli]
 
 export function GetNetworkColor(chain?: string) {
-  if (chain === 'homestead') return 'green'
-  if (chain === 'arbitrum') return 'blue'
-  if (chain === 'optimism') return 'red'
-  if (chain === 'matic') return 'purple'
+  if (chain === 'goerli') return 'brown'
 
   return 'grey'
 }

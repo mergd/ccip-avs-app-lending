@@ -1,0 +1,5 @@
+export const mockWETH = '0x3e5e873700178e4e59cccfd75b8dc74860f29e58'
+export const mockUSDC = '0x93f1f1995480039ccf22c3c668b3f82be83fc05b'
+export const loanCoordinator = '0x43f0ffe9da67c0b807c39dd99f56c00bc393da02'
+export const incredibleLendingProtocol = '0x4788374c70d2c289b2bec1dcf35d1089c0d30ecf'
+export const OnchainDepthOracle = '0x780d3fd2b36103d5a2c97f6229b556e299aa243f'

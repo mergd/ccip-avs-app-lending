@@ -8,7 +8,7 @@ export function Layout(props: PropsWithChildren) {
       <Header />
 
       <main className='flex-grow px-4 container max-w-3xl mx-auto'>{props.children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
